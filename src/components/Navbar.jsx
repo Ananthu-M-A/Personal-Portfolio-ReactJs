@@ -7,11 +7,11 @@ const Navbar = () => {
         <img className='mx-2 w-10' src={logo} alt="logo" />
       </div>
       <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-        <a href="https://www.linkedin.com/in/ananthuma/"><FaLinkedin /></a>
-        <a href="https://github.com/Ananthu-M-A/"><FaGithub /></a>
-        <a href="mailto:ananthumapookad@gmail.com"><FaInbox /></a>
-        <a href="https://wa.me/9539272385/"><FaWhatsapp /></a>
-        <a href="https://www.instagram.com/ananthu__m_a/"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/in/ananthuma/" target='_blank'><FaLinkedin /></a>
+        <a href="https://github.com/Ananthu-M-A/" target='_blank'><FaGithub /></a>
+        <a href="mailto:ananthumapookad@gmail.com" target='_blank'><FaInbox /></a>
+        <a href="https://wa.me/9539272385/" target='_blank'><FaWhatsapp /></a>
+        <a href="https://www.instagram.com/ananthu__m_a/" target='_blank'><FaInstagram /></a>
       </div>
     </nav>
   )
