@@ -20,7 +20,7 @@ const Experiences = () => {
                                 </span>
                                 <p className="mb-4 text-neutral-400">{experience.description}</p>
                                 {experience.technologies.map((tech, index) => (
-                                    <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">{tech}</span>
+                                    <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-cyan-500 border border-neutral-800">{tech}</span>
                                 ))}
                             </h6>
                         </motion.div>
