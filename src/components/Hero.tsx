@@ -1,8 +1,9 @@
+import React from 'react'
 import profile from '../assets/profile.jpg'
 import { HERO_CONTENT } from '../constants/constants'
 import { motion } from "framer-motion"
 
-const container = (delay) => ({
+const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
     visible: {
         x: 0,

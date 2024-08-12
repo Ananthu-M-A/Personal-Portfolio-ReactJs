@@ -1,3 +1,4 @@
+import React from "react"
 import { PROJECTS } from "../constants/constants"
 import { motion } from "framer-motion"
 

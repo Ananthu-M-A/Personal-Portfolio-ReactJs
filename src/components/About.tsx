@@ -1,4 +1,5 @@
-import aboutImg from '../assets/about.png'
+import React from 'react'
+import aboutImg from '../assets/about.png';
 import { ABOUT_TEXT } from '../constants/constants'
 import { motion } from "framer-motion"
 

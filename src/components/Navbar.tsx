@@ -1,8 +1,9 @@
-import { FaGithub, FaInbox, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import React from 'react'
 import logo from '../assets/logo.png'
-import { delay, motion } from "framer-motion"
+import { FaGithub, FaInbox, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { motion } from "framer-motion"
 
-const container = (delay) => ({
+const container = (delay: number) => ({
   hidden: { rotate: 0, opacity: 0 },
   visible: { rotate: 360, opacity: 1, transition: { duration: 0.5, delay: delay } }
 })
