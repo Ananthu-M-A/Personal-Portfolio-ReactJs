@@ -45,7 +45,7 @@ export const PROJECTS = [
     website: "https://portfolio.smartdepot.co.in/",
     image: project4,
     description: "A personal portfolio website showcasing my skills, projects, and professional journey. The site includes sections for about me, projects, skills, and contact information.",
-    technologies: ["React.js", "Tailwind", "Framer Motion"]
+    technologies: ["React.js", "TypeScript", "Tailwind", "Framer Motion"]
   },
   {
     title: "E-Learning Platform ( Launching Soon )",
